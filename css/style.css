@@ -1,0 +1,49 @@
+.item{
+    cursor: pointer;
+}
+.caption{
+    padding: 10px;
+    background-color:white;
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.8s;
+}
+#lightbackgroundcontainer{
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0 ;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#background{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    width: 50%;
+    background-image:url(./images/1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#background i{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
